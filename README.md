@@ -7,5 +7,5 @@ Add excercises for each category: html, css, js, react, testing, etc...
 They could then have a button that will show you the solution.
 If you have any good ideas feel free to add them!
 
- 
+In this project we will be using nextjs. No particular reason other than wanting to try it out.
 (idea by Thijs @ Zero To Mastery)
