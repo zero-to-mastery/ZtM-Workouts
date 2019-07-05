@@ -1,0 +1,17 @@
+body{
+	margin: 2% 14%;
+	font-family: "PT Sans", "Trebuchet MS", Georgia, sans-serif, "Times New Roman";
+}
+
+h1{
+	margin-left: 2px;
+}
+
+h3{
+	margin-left: 2px;
+	font-family: "PT Sans", "Trebuchet MS", Georgia, sans-serif, "Times New Roman";
+}
+
+#improve{
+	text-align: right;
+}
