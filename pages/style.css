@@ -1,11 +1,14 @@
 body{
-	background-image: linear-gradient(to right, rgba(255,0,0,0.5), rgba(255,255,0,0.5));
+	/*background-image: linear-gradient(to right, rgba(255,0,0,0.5), rgba(255,255,0,0.5));*/
+  background: linear-gradient(to right, rgb( 149, 132, 106) , rgb(255, 255, 253)); 
 	margin: 2% 14%;
 	font-family: "PT Sans", "Trebuchet MS", Georgia, sans-serif, "Times New Roman";
 }
 
 h1{
 	margin-left: 2px;
+  color:white;
+
 }
 
 #home{
@@ -39,7 +42,7 @@ h1{
 
 .container{
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 	flex-flow: row wrap;
 }
 
