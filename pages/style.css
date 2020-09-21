@@ -1,18 +1,24 @@
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: -1
+}
 body{
-	/*background-image: linear-gradient(to right, rgba(255,0,0,0.5), rgba(255,255,0,0.5));*/
-  background: linear-gradient(to right, rgb( 149, 132, 106) , rgb(255, 255, 253)); 
-	margin: 2% 14%;
-	font-family: "PT Sans", "Trebuchet MS", Georgia, sans-serif, "Times New Roman";
+  /*background-image: linear-gradient(to right, rgba(255,0,0,0.5), rgba(255,255,0,0.5));*/
+ margin: 2% 14%;
+  font-family: "Arial black", "PT Sans", "Trebuchet MS", Georgia, sans-serif, "Times New Roman";
 }
 
 h1{
-	margin-left: 2px;
+  margin-left: 2px;
   color:white;
 
 }
 
 #home{
-	list-style: none;
+  list-style: none;
 }
 
 #btn1 {
@@ -35,32 +41,32 @@ h1{
 }
 
 #btn1:hover {
-	background-color: red;
-	cursor: pointer;
-	transform: scale(1.2);
+  background-color: black;
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .container{
-	display: flex;
-	justify-content: right;
-	flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .list{
-	list-style: none;
-	margin: 2%;
+  list-style: none;
+  margin: 2%;
 }
 
 .btn-list{
-  background-color: rgba(0,128,128,0.5); 
+  background-color: rgba(80,128,128,0.5); 
   border: none;
   border-radius: 5px;
   color: white;
-  padding: 15px 32px;
+  padding: 80px 80px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;	
+  font-size: 22px;  
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -71,11 +77,10 @@ h1{
 }
 
 .btn-list:hover {
-	
-	background-color: red;
-	cursor: pointer;
-	transform: scale(1.2);
+  
+  background-color: black;
+  cursor: pointer;
+  transform: scale(1.2);
 }
-
 
 
