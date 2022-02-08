@@ -1,6 +1,6 @@
 //Copyright (c) 2020 by Matei Copot (https://codepen.io/towc/pen/YXGYJY)
 var w = c.width = window.innerWidth,
-    h = c.height = window.innerHeight,
+    h = c.height = document.getElementsByTagName("html")[0].offsetHeight,
     ctx = c.getContext( '2d' ),
     
     minDist = 10,
@@ -159,7 +159,7 @@ anim();
 window.addEventListener( 'resize', function() {
   
   w = c.width = window.innerWidth;
-  h = c.height = window.innerHeight;
+  h = c.height = document.getElementsByTagName("html")[0].offsetHeight;
   starter.x = w / 2;
   starter.y = h / 2;
   
